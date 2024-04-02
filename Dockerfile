@@ -3,7 +3,7 @@ FROM golang:1.21 as op
 WORKDIR /app
 
 ENV REPO=https://github.com/ethereum-optimism/optimism.git
-ENV VERSION=v1.7.2-rc.3
+ENV VERSION=v1.7.2
 # for verification:
 ENV COMMIT=25985c12c1dab2b4db6b44e17310987835083731
 
