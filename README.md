@@ -1,10 +1,10 @@
 ![Base](logo.webp)
 
-# Base node
+# Aegon node
 
-Base is a secure, low-cost, developer-friendly Ethereum L2 built to bring the next billion users onchain. It's built on Optimism’s open-source [OP Stack](https://stack.optimism.io/).
+Welcome to the Aegon Network, an innovative Layer 2 scaling solution built on the principles of Optimism's rollup technology. This document provides a high-level technical overview of Aegon Network, designed to serve as an introductory guide for node operators, developers, and contributors to our ecosystem. Our goal is to enhance Ethereum's scalability and efficiency, making decentralized applications more accessible and practical for everyday use. Built on [OP Stack](https://stack.optimism.io/).
 
-This repository contains the relevant Docker builds to run your own node on the Base network.
+
 
 <!-- Badge row 1 - status -->
 
@@ -16,7 +16,7 @@ This repository contains the relevant Docker builds to run your own node on the 
 
 <!-- Badge row 2 - links and profiles -->
 
-[![Website base.org](https://img.shields.io/website-up-down-green-red/https/base.org.svg)](https://base.org)
+[![Website aegon.network](https://img.shields.io/website-up-down-green-red/https/aegon.network.svg)](https://aegon.network)
 [![Blog](https://img.shields.io/badge/blog-up-green)](https://base.mirror.xyz/)
 [![Docs](https://img.shields.io/badge/docs-up-green)](https://docs.base.org/)
 [![Discord](https://img.shields.io/discord/1067165013397213286?label=discord)](https://base.org/discord)
