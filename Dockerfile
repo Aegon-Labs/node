@@ -3,11 +3,11 @@ FROM golang:1.21 as op
 WORKDIR /app
 
 ENV REPO=https://github.com/Aegon-Labs/op-aeg.git
-# ENV VERSION=v1.7.2-rc.3
+ENV VERSION=main
 # for verification:
 ENV COMMIT=05e046f5098f5aec0c26e1c9f57e0dca86c6c129
 
-RUN git clone $REPO --branch op-node/$VERSION --single-branch . && \
+RUN git clone $REPO --branch $VERSION --single-branch . && \
     git switch -c branch-$VERSION && \
     bash -c '[ "$(git rev-parse HEAD)" = "$COMMIT" ]'
 
